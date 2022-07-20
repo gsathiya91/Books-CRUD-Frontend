@@ -1,0 +1,34 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+li{
+    padding:10px;
+    width:288px;
+    max-width:400px;
+    max-height: 500px;
+    list-style: none;
+}
+.card {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.card > img{
+    width:100%;
+    height: 50%;
+}
+.card p {
+    margin:8px;
+}
+.card h3{
+    margin-top:8px;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
