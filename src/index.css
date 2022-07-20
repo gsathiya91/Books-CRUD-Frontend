@@ -44,8 +44,6 @@ label{
 }
 .aboutus{
   text-align: center;
-  margin-top: 200px;
-  margin-left:450px;
   cursor: pointer;
   width:350px;
   padding:16px;
@@ -56,4 +54,11 @@ label{
 .aboutus:hover{
   transform: scale(1.05);
   color:rgb(249, 10, 30);
+}
+.about{
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 200px;
 }
